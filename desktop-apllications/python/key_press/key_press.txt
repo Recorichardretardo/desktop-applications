@@ -1,0 +1,5 @@
+https://pynput.readthedocs.io/en/latest/keyboard.html
+
+https://nitratine.net/blog/post/how-to-make-hotkeys-in-python/
+
+https://www.youtube.com/watch?v=n_dfv5DLCGI
