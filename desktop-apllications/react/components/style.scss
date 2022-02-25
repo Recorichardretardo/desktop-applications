@@ -1,0 +1,89 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+//   .m-dialog {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     height: unquote("calc(100vh - 20px)");
+//     // 20px offset for the 10px margin on either side
+
+//     .c-name {
+//         width: 100%;
+//     }
+// }
+  
+
+.custom-modal-style {
+  width: 90vw;    /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+  height: 802px;
+} 
+
+
+// .m-dialog {
+//   width: 90vw;    /* Occupy the 90% of the screen width */
+//   max-width: 90vw;
+//   top:10%;
+// } 
+
+.m-dialog {
+ 
+  //width: 90vw;    /* Occupy the 90% of the screen width */
+  //max-width: 90vw;
+  width: 360px;
+  height:600px !important;
+}
+
+.c-name {
+
+/* 80% of window height */
+  height: 60%;
+  background-color:#BBD6EC;
+}       
+
+.m-header {
+
+  background-color: #337AB7;
+  padding:16px 16px;
+  color:#FFF;
+  border-bottom:2px dashed #337AB7;
+}
